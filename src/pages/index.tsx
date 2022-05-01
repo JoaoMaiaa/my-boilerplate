@@ -3,13 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-const newName = 2
+const newName2 = 2
 
 function getName(name: string) {
   return name
 }
 
-getName(newName)
+getName(newName2)
 
 const Home: NextPage = () => {
   return (
