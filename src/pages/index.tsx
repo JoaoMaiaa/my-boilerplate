@@ -3,14 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-const newName2 = 2
-
-function getName(name: string) {
-  return name
-}
-
-getName(newName2)
-
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
