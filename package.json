@@ -10,8 +10,8 @@
     "prepare": "husky install"
   },
   "lint-staged":{
-    "src/*.tsx":[
-      "yarn lint --fix"
+    "src/**/*":[
+      "yarn eslint --fix"
     ]
   },
   "dependencies": {
